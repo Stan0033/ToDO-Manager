@@ -11,3 +11,17 @@ c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo man
 c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\obj\Debug\todo manager.csproj.GenerateResource.Cache
 c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\obj\Debug\todo manager.exe
 c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\obj\Debug\todo manager.pdb
+D:\Projects\C#\todo manager\ToDO-Manager\todo manager\bin\Debug\todo manager.exe.config
+D:\Projects\C#\todo manager\ToDO-Manager\todo manager\bin\Debug\todo manager.exe
+D:\Projects\C#\todo manager\ToDO-Manager\todo manager\bin\Debug\todo manager.pdb
+D:\Projects\C#\todo manager\ToDO-Manager\todo manager\obj\Debug\todo manager.csproj.AssemblyReference.cache
+D:\Projects\C#\todo manager\ToDO-Manager\todo manager\obj\Debug\MainWindow.baml
+D:\Projects\C#\todo manager\ToDO-Manager\todo manager\obj\Debug\MainWindow.g.cs
+D:\Projects\C#\todo manager\ToDO-Manager\todo manager\obj\Debug\App.g.cs
+D:\Projects\C#\todo manager\ToDO-Manager\todo manager\obj\Debug\todo manager_MarkupCompile.cache
+D:\Projects\C#\todo manager\ToDO-Manager\todo manager\obj\Debug\todo manager.g.resources
+D:\Projects\C#\todo manager\ToDO-Manager\todo manager\obj\Debug\todo_manager.Properties.Resources.resources
+D:\Projects\C#\todo manager\ToDO-Manager\todo manager\obj\Debug\todo manager.csproj.GenerateResource.cache
+D:\Projects\C#\todo manager\ToDO-Manager\todo manager\obj\Debug\todo manager.csproj.CoreCompileInputs.cache
+D:\Projects\C#\todo manager\ToDO-Manager\todo manager\obj\Debug\todo manager.exe
+D:\Projects\C#\todo manager\ToDO-Manager\todo manager\obj\Debug\todo manager.pdb

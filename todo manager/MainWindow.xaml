@@ -1,7 +1,9 @@
 ﻿<Window x:Class="todo_manager.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525" Icon="Microsoft_To-Do_icon.svg.ico">
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Title="To Do Manager" Height="350" Width="525" Icon="Microsoft_To-Do_icon.svg.ico">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300"></ColumnDefinition>
