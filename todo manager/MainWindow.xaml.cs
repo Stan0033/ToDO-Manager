@@ -52,6 +52,7 @@ namespace todo_manager
             TextBlock txt = new TextBlock();
             txt.Width = 250;
             txt.Text = title;
+            txt.TextWrapping = TextWrapping.Wrap;
             panel.Children.Add(txt);
             Button btn = new Button();
              CheckBox chk = new CheckBox();
@@ -72,6 +73,7 @@ namespace todo_manager
             TextBlock txt = new TextBlock();
             txt.Text = title;
             txt.Width = 250;
+            txt.TextWrapping = TextWrapping.Wrap;
             panel.Children.Add(txt);
             Button btn = new Button();
             CheckBox chk = new CheckBox();
