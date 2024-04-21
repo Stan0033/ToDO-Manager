@@ -1,1 +1,1 @@
-Lets ayou add or remove todo tasks
+Lets you add or remove todo tasks. Also can mark them as completed.
