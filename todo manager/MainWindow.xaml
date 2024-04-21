@@ -1,0 +1,32 @@
+﻿<Window x:Class="todo_manager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Icon="Microsoft_To-Do_icon.svg.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ListBox Name="Container" Width="300" Grid.Column="0" MouseDoubleClick="Delete"></ListBox>
+        <StackPanel Grid.Column="1" Margin="5" Width="200" HorizontalAlignment="Left">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Width="50">Title:</TextBlock>
+                <TextBox Name="title" Width="140"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock  Width="50">Descr:</TextBlock>
+                <RichTextBox Name="descr" Width="140" Height="100">
+                    <RichTextBox.Resources>
+                        <Style TargetType="Paragraph">
+                            <Setter Property="Margin" Value="0"/>
+                            <Setter Property="LineHeight" Value="16"/>
+                            <!-- Adjust this value as needed -->
+                        </Style>
+                    </RichTextBox.Resources>
+                </RichTextBox>
+            </StackPanel>
+            <Button Click="Add" Cursor="Hand">Add</Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"></StackPanel>
+    </Grid>
+</Window>

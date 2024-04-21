@@ -1,0 +1,13 @@
+c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\bin\Debug\todo manager.exe.config
+c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\bin\Debug\todo manager.exe
+c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\bin\Debug\todo manager.pdb
+c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\obj\Debug\todo manager.csprojResolveAssemblyReference.cache
+c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\obj\Debug\MainWindow.baml
+c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\obj\Debug\MainWindow.g.cs
+c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\obj\Debug\App.g.cs
+c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\obj\Debug\todo manager_MarkupCompile.cache
+c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\obj\Debug\todo manager.g.resources
+c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\obj\Debug\todo_manager.Properties.Resources.resources
+c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\obj\Debug\todo manager.csproj.GenerateResource.Cache
+c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\obj\Debug\todo manager.exe
+c:\users\stan0033_pc\documents\visual studio 2013\Projects\todo manager\todo manager\obj\Debug\todo manager.pdb
