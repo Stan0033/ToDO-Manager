@@ -46,7 +46,19 @@ namespace todo_manager
         public ListBoxItem CreateItem(string title, string description)
         {
             ListBoxItem ls = new ListBoxItem();
-            ls.Content = title;
+            StackPanel panel = new StackPanel();
+            panel.Orientation = Orientation.Horizontal;
+            panel.Width = 300;
+            TextBlock txt = new TextBlock();
+            txt.Width = 250;
+            txt.Text = title;
+            panel.Children.Add(txt);
+            Button btn = new Button();
+             CheckBox chk = new CheckBox();
+            chk.Checked += (sender, e) => { ls.Background = Brushes.Green; };
+            chk.Unchecked += (sender, e) => { ls.Background = Brushes.White; };
+            panel.Children.Add(chk);
+            ls.Content = panel;
             ls.ToolTip = description;
 
             return ls;
@@ -54,7 +66,19 @@ namespace todo_manager
         public void Create(string title, string description)
         {
             ListBoxItem ls = new ListBoxItem();
-            ls.Content = title;
+            StackPanel panel = new StackPanel();
+            panel.Orientation = Orientation.Horizontal;
+            panel.Width = 300;
+            TextBlock txt = new TextBlock();
+            txt.Text = title;
+            txt.Width = 250;
+            panel.Children.Add(txt);
+            Button btn = new Button();
+            CheckBox chk = new CheckBox();
+            chk.Checked += (sender, e) => { ls.Background = Brushes.Green; };
+            chk.Unchecked += (sender, e) => { ls.Background = Brushes.White; };
+            panel.Children.Add(chk);
+            ls.Content = panel;
             ls.ToolTip = description;
 
             Container.Items.Add( ls);
@@ -70,7 +94,11 @@ namespace todo_manager
             foreach (object item   in Container.Items)
             {
                 ListBoxItem i = item as ListBoxItem;
-               sb.AppendLine("(" + i.Content.ToString() + "|"  + i.ToolTip + ")");
+                 
+                StackPanel s = i.Content as StackPanel;
+              
+                TextBlock t = s.Children[0] as TextBlock;   
+               sb.AppendLine("(" + t.Text + "|"  + i.ToolTip + ")");
             }
             string local = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Database.txt");
             File.WriteAllText(local,sb.ToString());
